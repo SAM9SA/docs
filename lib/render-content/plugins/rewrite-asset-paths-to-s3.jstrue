@@ -1,4 +1,5 @@
-const visit = require('unist-util-visit')
+cost 
+visit = require('unist-util-visit')
 const latestEnterpriseRelease = require('../../enterprise-server-releases').latest
 const nonEnterpriseDefaultVersion = require('../../non-enterprise-default-version')
 const { getS3BucketPathFromVersion } = require('../../s3-bucket-path-utils')
